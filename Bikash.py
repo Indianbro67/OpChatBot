@@ -7,19 +7,19 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "none") 
-API_HASH = os.environ.get("API_HASH", "none") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "none") 
+API_ID = os.environ.get("API_ID", "26670684") 
+API_HASH = os.environ.get("API_HASH", "60592bded0f25a9633a8133601f2c779") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5980544793:AAH5ho3V7WC3SICMexncPeOzJxCDC7JTZNo") 
 MONGO_URL = os.environ.get("MONGO_URL", "none")
 BOT_IMAGE = os.environ.get("BOT_IMAGE", "none")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "none")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "none")
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "none")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "none")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Pooja_Service_Bot")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Black_Devil_Admin")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "https://t.me/adult_girls_chatting_groupp")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/op_bro_official_group")
 
 
 bot = Client(
-    "V_Chat_Bot" ,
+    "Angel Queen 👑" ,
     api_id = API_ID,
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
