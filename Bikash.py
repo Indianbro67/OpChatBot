@@ -19,7 +19,7 @@ UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/op_bro_officia
 
 
 bot = Client(
-    "Angel Queen 👑" ,
+    "V_Chat_Bot" ,
     api_id = API_ID,
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
