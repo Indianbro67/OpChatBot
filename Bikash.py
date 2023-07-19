@@ -15,7 +15,7 @@ BOT_IMAGE = os.environ.get("BOT_IMAGE", "https://telegra.ph/file/8718de4a731b087
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "Pooja_Service_Bot")
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Black_Devil_Admin")
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "https://t.me/adult_girls_chatting_groupp")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/op_bro_official_group")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/adult_updates")
 
 
 bot = Client(
@@ -37,13 +37,14 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{BOT_IMAGE}",
+    await message.reply_audio(audio=f"https://dl.sndup.net/hp75/How%20To%20Download%20Restricted%20Photo%20and.mp3",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 𝐇𝐢  𝐈'𝐦 𝐀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 🌷.\n\n📌 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 Angel Queen 👑 🌷 𝐅𝐨𝐫𝐦 𝐈𝐧𝐝𝐢𝐚 🇮🇳 \n\n🌷 𝐈'𝐦 𝐀 𝐀𝐫𝐭𝐢𝐟𝐢𝐜𝐢𝐚𝐥 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞 🌷\n\n /chatbot - [on|off] 𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐔𝐬𝐞 𝐎𝐧𝐥𝐲 𝐀𝐧𝐲 𝐆𝐫𝐨𝐮𝐩
+💥 𝗦𝗲𝗻𝗱 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗢r 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸 . \n𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐏𝐡𝐨𝐭𝐨 𝐚𝐧𝐝 𝐕𝐢𝐝𝐞𝐨
 
 ┏━━━━━━━━━━━━━━━━━┓
 ┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ](https://t.me/Black_Devil_Admin)
+┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 ➪ » [𝐀𝐝𝐮𝐥𝐭𝐬 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/adult_updates)
+┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ➪ » [𝐆𝐢𝐫𝐥𝐟𝐫𝐢𝐞𝐧𝐝 𝟒𝐔 ❤](https://t.me/adult_girls_chatting_groupp)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝
@@ -53,7 +54,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "ɪɴᴠɪᴛᴇ ᴀɴᴅ ɢᴇᴛ ᴠɪᴘ ᴀᴄᴄᴇꜱꜱ 🗝️🔐", url=f"https://telegram.me/share/url?url=https://t.me/save_all_file_bot?start=1521651151")
                 ]
                 
            ]
@@ -63,18 +64,7 @@ async def start_(client: Client, message: Message):
     
 @bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{BOT_IMAGE}",
-        caption=f"""💥 𝐇𝐢! 𝐈'𝐦 𝐀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 🌷.\n\n📌 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 𝐕 𝐁𝐨𝐭 🌷 𝐅𝐨𝐫𝐦 𝐈𝐧𝐝𝐢𝐚 🇮🇳 \n\n🌷 𝐈'𝐦 𝐀 𝐀𝐫𝐭𝐢𝐟𝐢𝐜𝐢𝐚𝐥 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞 🌷\n\n𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐓𝐨 [𝐑𝐞𝐩𝐨𝐫𝐭](https://t.me/{SUPPORT_GROUP})  🥀\n\n[𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/{UPDATES_CHANNEL}) 🌷\n\n /chatbot - [on|off]""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        " 💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"https://t.me/bgt_chat")
-                ]
-            ]
-        ),
-    )
+    await message.reply_
 
 
 
