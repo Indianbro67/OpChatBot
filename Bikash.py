@@ -9,7 +9,7 @@ import re
 
 API_ID = os.environ.get("API_ID", "26670684") 
 API_HASH = os.environ.get("API_HASH", "60592bded0f25a9633a8133601f2c779") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5980544793:AAH5ho3V7WC3SICMexncPeOzJxCDC7JTZNo") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6289264953:AAG1N1Q3_KXM-V2KB-nDb9LFlMXq9WpZPv8") 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
 BOT_IMAGE = os.environ.get("BOT_IMAGE", "https://telegra.ph/file/8718de4a731b087ffd12a.jpg")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "Pooja_Service_Bot")
