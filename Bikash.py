@@ -64,7 +64,29 @@ async def start_(client: Client, message: Message):
     
 @bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
-    await message.reply_
+        await message.reply_audio(audio=f"https://dl.sndup.net/hp75/How%20To%20Download%20Restricted%20Photo%20and.mp3", 
+         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━ 
+ 💥 𝗦𝗲𝗻𝗱 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗢r 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸 . \n𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐏𝐡𝐨𝐭𝐨 𝐚𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 
+  
+ ┏━━━━━━━━━━━━━━━━━┓ 
+ ┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ](https://t.me/Black_Devil_Admin) 
+ ┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 ➪ » [𝐀𝐝𝐮𝐥𝐭𝐬 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/adult_updates) 
+ ┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ➪ » [𝐆𝐢𝐫𝐥𝐟𝐫𝐢𝐞𝐧𝐝 𝟒𝐔 ❤](https://t.me/adult_girls_chatting_groupp) 
+ ┗━━━━━━━━━━━━━━━━━┛ 
+  
+ 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐀𝐬 𝐚 𝐀𝐝𝐦𝐢𝐧 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 
+ 𝐄𝐧𝐣𝐨𝐲 𝐒𝐮𝐩𝐞𝐫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 ❥︎𝐂𝐡𝐚𝐭. 
+ ━━━━━━━━━━━━━━━━━━━━━━━━**""", 
+     reply_markup=InlineKeyboardMarkup( 
+             [ 
+                 [ 
+                     InlineKeyboardButton( 
+                         "ɪɴᴠɪᴛᴇ ᴀɴᴅ ɢᴇᴛ ᴠɪᴘ ᴀᴄᴄᴇꜱꜱ 🗝️🔐", url=f"https://telegram.me/share/url?url=https://t.me/save_all_file_bot?start=1521651151") 
+                 ] 
+  
+            ] 
+         ), 
+     )
 
 
 
